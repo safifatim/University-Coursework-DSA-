@@ -1,70 +1,101 @@
-# Data Structures and Algorithms - Course Work
+# Data Structures & Algorithms in Java
 
-## 👨‍🎓 Student Information
-- **Name:** [Your Name]
-- **Course:** Data Structures & Algorithms
-- **Language:** Java
-- [cite_start]**Development Environment:** IntelliJ IDEA [cite: 1]
+This repository contains **Java implementations** of various **data structures** and **algorithms**, demonstrating core concepts of **Object-Oriented Programming (OOP)**, recursion, and algorithmic problem-solving.
 
 ---
 
-## 📂 Repository Contents & Implementation Details
+## 📘 Project Overview
 
-This repository contains Java implementations of fundamental data structures and algorithms covered throughout the semester.
+This project is a collection of commonly used **data structures** and **algorithms** implemented in **Java**.  
+It includes **Stacks, Queues, Linked Lists, Recursion-based algorithms, Searching, Sorting, and Binary Search Trees (BSTs)**.  
 
-### 1. Searching Algorithms
-I have implemented both iterative and recursive searching techniques:
-* **Linear Search:** Implemented recursively in `Searching_Recursion.java` and iteratively in `SearchingIterative.java`.
-* **Binary Search:** Implemented for sorted arrays using both recursion and iteration.
-* **Time Complexity:** - Linear Search: $O(n)$
-  - Binary Search: $O(\log n)$
-
-
-
-[Image of binary search algorithm flow]
-
-
-### 2. Sorting Algorithms (`Sorting_Quick_Merge.java`)
-Efficient sorting methods using the Divide and Conquer approach:
-* **Merge Sort:** Recursively divides the array into halves, sorts them, and conquers by merging.
-* **Quick Sort:** Partitions the array based on a pivot element.
-* **Time Complexity:** $O(n \log n)$ average for both.
-
-### 3. Linked Lists (`DoublyLinklist.java`)
-* **Doubly Linked List:** A linear data structure where each node contains data and pointers to both the `next` and `previous` nodes.
-* **Operations:** Includes methods for `addFirst`, `addLast`, `deleteFirst`, `deleteLast`, and both forward and backward traversal.
-
-
-
-### 4. Stacks & Queues
-* **Queue (`Queue_Array_Linklist.java`):** An array-based implementation of a Queue (FIFO). It includes utility functions to find the `maximum` element and the `sum` of all elements.
-* **Stack (`Stack_LinkList.java`):** Implementation of a Stack (LIFO) using both `ArrayList` and custom `Node` structures.
-
-### 5. Binary Search Trees (BST)
-Implementation of non-linear hierarchical data structures:
-* **Files:** `BinarySearch_Trees.java` and `BinarySearchTree_Recursive.java`.
-* **Operations:** Supports `Insert`, `Search`, `Delete`, and `Height` calculation.
-* **Traversals:** Inorder, Preorder, and Postorder.
-
-
+The purpose is to **practice and demonstrate understanding** of fundamental programming concepts in Java while providing reusable code examples.
 
 ---
 
-## 📊 Performance Summary
+## 🧱 Contents / Modules
 
-| Algorithm / Data Structure | Time Complexity (Average) | Space Complexity |
-| :--- | :--- | :--- |
-| **Quick Sort** | $O(n \log n)$ | $O(\log n)$ |
-| **Merge Sort** | $O(n \log n)$ | $O(n)$ |
-| **Binary Search** | $O(\log n)$ | $O(1)$ |
-| **BST Search** | $O(\log n)$ | $O(h)$ |
-| **Linked List Access** | $O(n)$ | $O(1)$ |
+### 1️⃣ Stack (Linked List & Array)
+- **StackLinkedList**: Stack implemented using a linked list.
+- **StackArray**: Stack implemented using an array with dynamic resizing.
+- Operations:
+  - Push, Pop
+  - Check if empty
+  - Print stack elements
+  - Find average of stack elements
+
+### 2️⃣ Doubly Linked List
+- Implementation of a **doubly linked list** with:
+  - Add first / Add last
+  - Delete first / Delete last
+  - Print forward and backward
+- Demonstrates **bidirectional navigation** and pointer management.
+
+### 3️⃣ Queue Operations
+- **CountQueueElements**: Count number of elements in a queue.
+- **FindSumInQueue** (commented): Sum of queue elements.
+- **FindMaxInQueue** (commented): Maximum element in queue.
+- Demonstrates **FIFO behavior** using `java.util.Queue`.
+
+### 4️⃣ Recursion-based Algorithms
+- **Fibonacci Series**
+- **Sum of Array elements**
+- **Factorial calculation**
+- **Recursive Linear Search**
+- **Recursive Binary Search**
+- Demonstrates **problem-solving using recursion**.
+
+### 5️⃣ Searching Algorithms
+- **Linear Search**
+- **Binary Search** (Iterative & Recursive)
+- Efficient searching of elements in arrays.
+
+### 6️⃣ Sorting Algorithms (commented)
+- **Merge Sort**
+- **Quick Sort**
+- Demonstrates **divide-and-conquer sorting**.
+
+### 7️⃣ Binary Search Trees (BST)
+- Implementation of **BST** with:
+  - Insert
+  - Delete
+  - Search
+  - Inorder, Preorder, Postorder traversal
+  - Find minimum
+  - Height calculation
+- Demonstrates **tree data structures**, recursion, and hierarchical data management.
 
 ---
 
-## 🚀 How to Run the Code
-1. Ensure you have the **Java Development Kit (JDK)** installed.
-2. Open the project in **IntelliJ IDEA** or use the terminal.
-3. To compile via terminal:
-   ```bash
-   javac FileName.java
+## 🛠️ Technologies Used
+- **Java**
+- **Java Collections Framework (Queue, LinkedList)**
+- **Java Swing / AWT (Optional in some modules)**
+- Recursion and iterative programming techniques
+
+---
+
+## 🎓 Learning Outcomes
+- Implement and understand **Stacks, Queues, and Linked Lists**
+- Recursion-based problem-solving
+- Searching and sorting algorithms
+- Binary Search Tree operations
+- Practical use of **OOP principles** in Java
+- Handling arrays, nodes, and pointers
+
+---
+
+## ▶️ How to Run the Code
+1. Open the project in any **Java IDE** (IntelliJ IDEA, Eclipse, or NetBeans).
+2. Choose the module/class you want to run (e.g., `StackLinkedList`, `DoublyList`, `Searching_AlgorithmsRecursion`, `Trees_BinarySearchTrees`).
+3. Run the `main` method of that class.
+4. Observe output in the **console**.
+
+---
+
+## 👩‍💻 Developer
+**Fatima** – BS Software Engineering Student  
+
+GitHub: [YourUsername](https://github.com/YourUsername)
+
+---
