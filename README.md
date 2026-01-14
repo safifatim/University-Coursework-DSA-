@@ -1,18 +1,18 @@
-# Data Structures and Algorithms - Course Work
+### Data Structures and Algorithms - Coursework
 
-This repository contains **Java implementations** of various **data structures** and **algorithms**, demonstrating core concepts of **Object-Oriented Programming (OOP)**, recursion, and algorithmic problem-solving.
+This repository showcases Java implementations of essential data structures and algorithms, highlighting key principles of Object-Oriented Programming (OOP), recursion, and algorithmic problem-solving techniques.
 
-## 📂 Repository Contents & Implementation Details
+📂 Repository Overview & Implementation Highlights
 
-This project is a collection of commonly used **data structures** and **algorithms** implemented in **Java**.  
-It includes **Stacks, Queues, Linked Lists, Recursion-based algorithms, Searching, Sorting, and Binary Search Trees (BSTs)**.  
+This project contains a comprehensive collection of commonly used data structures and algorithms developed in Java.
+Included are implementations of Stacks, Queues, Linked Lists, Recursion-based algorithms, Searching, Sorting, and Binary Search Trees (BSTs).
 
-The purpose is to **practice and demonstrate understanding** of fundamental programming concepts in Java while providing reusable code examples.
+The goal is to reinforce understanding of core programming concepts, while providing reusable and illustrative code examples.
 
 ### 1. Searching Algorithms
 I have implemented both iterative and recursive searching techniques:
-* **Linear Search:** Implemented recursively in `Searching_Recursion.java` and iteratively in `SearchingIterative.java`.
-* **Binary Search:** Implemented for sorted arrays using both recursion and iteration.
+* **Linear Search:** Implemented both Iteratively and Recursively in `SearchingIterative.java`.
+* **Binary Search:** Implemented recursively in `Searching_Recursion.java`
 * **Time Complexity:** - Linear Search: $O(n)$
   - Binary Search: $O(\log n)$
 
