@@ -1,4 +1,4 @@
-### Data Structures and Algorithms - Coursework
+## Data Structures and Algorithms - Coursework
 
 This repository showcases Java implementations of essential data structures and algorithms, highlighting key principles of Object-Oriented Programming (OOP), recursion, and algorithmic problem-solving techniques.
 
