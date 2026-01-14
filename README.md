@@ -58,7 +58,7 @@ Implementation of non-linear hierarchical data structures:
 
 ## 🚀 How to Run the Code
 1. Open the project in any **Java IDE** (IntelliJ IDEA, Eclipse, or NetBeans).
-2. Choose the module/class you want to run (e.g., `StackLinkedList`, `DoublyList`, `Searching_AlgorithmsRecursion`, `Trees_BinarySearchTrees`).
+2. Choose the module/class you want to run (e.g., `Stack_LinkList.java`, `Queue_Array_Linklist.java`, `BinarySearch_Trees.java` etc).
 3. Run the `main` method of that class.
 4. Observe output in the **console**.
    
