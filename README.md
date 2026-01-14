@@ -2,7 +2,7 @@
 
 This repository showcases Java implementations of essential data structures and algorithms, highlighting key principles of Object-Oriented Programming (OOP), recursion, and algorithmic problem-solving techniques.
 
-📂 Repository Overview & Implementation Highlights
+## 📂 Repository Overview & Implementation Highlights
 
 This project contains a comprehensive collection of commonly used data structures and algorithms developed in Java.
 Included are implementations of Stacks, Queues, Linked Lists, Recursion-based algorithms, Searching, Sorting, and Binary Search Trees (BSTs).
